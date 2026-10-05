@@ -1,0 +1,4 @@
+<h1>conferances:</h1>
+@for(conf of conferances; track $index){
+   <app-conferance-details (inc)="increment()" [conf]="conf"></app-conferance-details>
+}
