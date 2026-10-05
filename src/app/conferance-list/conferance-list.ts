@@ -9,9 +9,9 @@ import { ConferanceDetails } from '../conferance-details/conferance-details';
 })
 export class ConferanceList {
   conferances :any[]=[
-    {name:"angular",date:"2023-01-01",place:"tunis"},
-    {name:"react",date:"2023-02-01",place:"sfax"},
-    {name:"vue",date:"2023-03-01",place:"sousse"},
+    {id:1,name:"angular",date:"2023-01-01",place:"tunis"},
+    {id:2,name:"react",date:"2023-02-01",place:"sfax"},
+    {id:3,name:"vue",date:"2023-03-01",place:"sousse"},
   ]
   increment(){
     alert("increment");

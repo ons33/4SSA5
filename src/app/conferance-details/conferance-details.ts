@@ -7,9 +7,9 @@ import { Component, input, output } from '@angular/core';
   styleUrl: './conferance-details.css',
 })
 export class ConferanceDetails {
-  conf=input<any>()
- inc = output();
-  onsave(){
-    this.inc.emit();
-  }
+//   conf=input<any>()
+//  inc = output();
+//   onsave(){
+//     this.inc.emit();
+//   }
 }
